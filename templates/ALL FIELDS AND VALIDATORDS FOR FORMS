@@ -1,0 +1,39 @@
+FIELDS
+
+BooleanField
+DateField
+DateTimeField
+DecimalField
+HiddenField
+FileField
+MultipleField
+FieldList
+FloatField
+FormField
+IntegerField
+PasswordField
+RadioField
+SelectField
+SelectMultipleField
+SubmitField
+StringField
+TextAreaField
+
+
+
+VALIDATORS
+
+DataRequired
+Email   se email valida
+EqualTo
+InputRequired
+IPAddress
+Length
+MacAddress
+NumberRange
+Optional
+Regexp regular expression
+URL
+UUID unique user identification number
+AnyOf
+NoneOf

@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>page</title>
-</head>
-<body>
-    {{text}} how you dooin? LMAO<br>
+{%extends "Base.html"%}
 
-</body>
-</html>
+{%block content%}
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>page</title>
+    </head>
+    <body>
+        {{text|title}} how you dooin? LMAO<br>
+
+    </body>
+    </html>
+{% endblock%}
